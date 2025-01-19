@@ -33,7 +33,7 @@ Bu projede aşağıdaki adımlar gerçekleştirilmiştir:
 - Hedef değişken **Label Encoding** kullanılarak kategorik hale dönüştürüldü.  
 - Sınıflandırma için **SVM (Support Vector Machine)** ve **KNN (K-Nearest Neighbors)** algoritmaları uygulandı.  
 - **GridSearchCV** kullanılarak SVM ve KNN modellerinin hiperparametreleri optimize edildi.  
-    - **GridSearchCV** (Grid Search Cross Validation), belirtilen parametrelerin farklı kombinasyonlarını dener ve her bir kombinasyon için çapraz doğrulama yaparak en iyi performansı veren parametre setini seçer.  
+**GridSearchCV** (Grid Search Cross Validation), belirtilen parametrelerin farklı kombinasyonlarını dener ve her bir kombinasyon için çapraz doğrulama yaparak en iyi performansı veren parametre setini seçer.  
 
 ### 5. **Sonuçlar**  
 - Eğitim ve test setlerine ayırdıktan sonra modeller eğitildi.  
@@ -85,7 +85,17 @@ SVM, sınıflandırma ve regresyon analizlerinde kullanılan güçlü bir makine
 KNN, basit ve sezgisel bir sınıflandırma algoritmasıdır. Yeni bir örnek, eğitim verisindeki en yakın K komşusuna göre sınıflandırılır. KNN, etiketli verilerin yoğun olduğu ve önceden model eğitimi gerektirmeyen durumlarda yaygın olarak kullanılır.
 
 
-## Sonuçlar
+
+## Proje Görselleri
+
+### 1. İlk Resim
+![Açıklama](images/image1.png)
+
+### 2. İkinci Resim
+![Açıklama](images/image2.jpg)
+
+### 3. Üçüncü Resim
+![Açıklama](images/image3.png)
 
 
 
