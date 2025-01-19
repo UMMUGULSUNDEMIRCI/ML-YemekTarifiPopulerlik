@@ -6,8 +6,6 @@ porsiyon bilgileri,kullanıcıların tarif defterlerine ekleme sayıları ve yor
 Yemek tariflerinin verileri kullanılarak, çeşitli makine öğrenmesi modelleri geliştirildi.
 Modellerin amacı, yemek tariflerinin hazırlık süresi ,porsiyonu ,yorum sayısı bilgileri kullanılarak deftere eklenme miktarını tahmin etmektir.
 
-### **Kullanılan Program**  
-Proje, **Jupyter Notebook** programı kullanılarak gerçekleştirilmiştir.
 
 ## Proje İçeriği
 
@@ -84,6 +82,21 @@ SVM, sınıflandırma ve regresyon analizlerinde kullanılan güçlü bir makine
 ### K-Nearest Neighbors (KNN): 
 KNN, basit ve sezgisel bir sınıflandırma algoritmasıdır. Yeni bir örnek, eğitim verisindeki en yakın K komşusuna göre sınıflandırılır. KNN, etiketli verilerin yoğun olduğu ve önceden model eğitimi gerektirmeyen durumlarda yaygın olarak kullanılır.
 
+### **Kullanılan Program**  
+Proje, **Jupyter Notebook** programı kullanılarak gerçekleştirilmiştir.
+
+## 📁 Klasör ve Dosya Açıklamaları
+
+### 1. `images` Klasörü
+Bu klasör, proje kapsamında kullanılan görselleri içermektedir.
+
+### 2. `data_preprocessing_train_model.py` Dosyası
+Bu Python dosyası, veri ön işleme ve model eğitimi işlemlerini gerçekleştirmek için oluşturulmuştur. 
+#### İşlevleri:
+- **Veri Yükleme:** `yemek_tarif.csv` dosyasını okuyarak veri setini belleğe alır.
+- **Veri Temizleme:** Eksik değerlerin giderilmesi ve uygun veri dönüşümleri yapılır.
+- **Model Eğitimi:** Hazırlanan veri ile makine öğrenimi modeli eğitilir.
+- **Model Performans Değerlendirme:** Modelin doğruluk, hata oranı gibi metriklerle değerlendirilmesini sağlar.
 
 
 ## Proje Görselleri
