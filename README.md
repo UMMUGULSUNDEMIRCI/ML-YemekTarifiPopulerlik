@@ -88,14 +88,28 @@ KNN, basit ve sezgisel bir sınıflandırma algoritmasıdır. Yeni bir örnek, e
 
 ## Proje Görselleri
 
-### 1. İlk Resim
+### 1. Veri Setinin Orijinali
 ![Veri Setinin Orijinali](images/orjinalveriseti.PNG)
 
-### 2. İkinci Resim
-![Açıklama](images/image2.jpg)
+### 2. Temizlenmiş Veri Seti
+![Temizlenmiş Veri Seti](images/temizveriseti.PNG)
 
-### 3. Üçüncü Resim
-![Açıklama](images/image3.png)
+### 3. Sayısal Sütunların Histogramları
+![Histogramlar](images/histogramlar.PNG)
+
+### 4. Kategorik Sütunların Pasta Grafiği
+![Kategorik Sütunların Pasta Grafiği](images/kategorikpastagrafik.PNG)
+
+### 5. Korelasyon Matrisi
+![Korelasyon Matrisi](images/korelasyonmatrisi.PNG)
+
+### 6. Regresyon Modelleri Sonuçları
+![Regresyon Modelleri Sonuçları](images/Regresyonmodelleri.PNG)
+
+### 7. Sınıflandırma Modelleri Sonuçları
+![Sınıflandırma Modelleri Sonuçları](images/Sınıflandırma.PNG)
+
+
 
 
 
