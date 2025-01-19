@@ -6,8 +6,9 @@ porsiyon bilgileri,kullanıcıların tarif defterlerine ekleme sayıları ve yor
 Yemek tariflerinin verileri kullanılarak, çeşitli makine öğrenmesi modelleri geliştirildi.
 Modellerin amacı, yemek tariflerinin hazırlık süresi ,porsiyonu ,yorum sayısı bilgileri kullanılarak deftere eklenme miktarını tahmin etmektir.
 
-##Kullanılan Program
-Proje "jupyter notebook" programı kullanılarak gerçekleştirilmiştir.
+### **Kullanılan Program**  
+Proje, **Jupyter Notebook** programı kullanılarak gerçekleştirilmiştir.
+
 ## Proje İçeriği
 
 Bu projede aşağıdaki adımlar gerçekleştirilmiştir:
