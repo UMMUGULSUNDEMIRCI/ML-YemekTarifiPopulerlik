@@ -12,20 +12,36 @@ Proje "jupyter notebook" programı kullanılarak gerçekleştirilmiştir.
 
 Bu projede aşağıdaki adımlar gerçekleştirilmiştir:
 
-1. **Veri Ön İşleme(Data Preprocessing)**: CSV dosyasındaki veriler bir DataFrame olarak içe aktarıldı ve incelendi. 
+İşte belirtilen başlıkları ve açıklamaları düzenleyerek daha net ve anlaşılır bir formatta "Read Me" dosyanıza ekleyebileceğiniz şekilde listeledim:
 
-Kategorik veriler One-Hot Encoding ile dönüştürüldü, zaman bilgileri dakikaya çevrildi,yazı ile yazılan bazı sayı değerleri(bin gibi) düzeltidi ve eksik değerler işlendi.
-2. **Veri Görselleştirme**: Veri analizinde, sayısal sütunlar için histogramlar çizildi, kategorik sütunlar için pasta 
-grafikleri oluşturuldu. Ayrıca, korelasyon matrisleri kullanılarak veriler arasındaki ilişkiler incelendi.
-3. **Aykırı Değerlerin Düzeltilmesi**: IQR (Interquartile Range) yöntemiyle aykırı değerler tespit edilip, bu değerler 
-ortalama ile dolduruldu.
-4. **Modelleme**: Random Forest, Gradient Boosting, ve XGBoost gibi regresyon modelleri 
-kullanılarak tahminler yapılmıştır. 
-Ayrıca, hedef değişken Label Encoding kullanılarak kategorik hale dönüştürüldü ve sınıflandırma için SVM ve KNN algoritmaları uygulandı.SVM (Support Vector Machine) ve KNN (K-Nearest Neighbors) modelleri için GridSearchCV kullanılarak modellerin hiperparametreleri optimize edildi. 
-GridSearchCV (Grid Search Cross Validation), belirtilen parametrelerin farklı kombinasyonlarını dener ve her bir kombinasyon için çapraz doğrulama (cross-validation) yaparak en iyi performansı veren parametre setini seçer.
+---
 
-5. **Sonuçlar**: Eğitim ve test setlerine ayırdıktan sonra modeller eğitilmiştir.Regresyon modelleri, R^2 skoru ve Mean Squared Error (MSE) gibi performans metrikleri hesaplanarak değerlendirildi.
-Sınıflandırma modellerini değerlendirmek için ise sınıflandırma raporu (Classification Report),karmaşıklık matrisi(Confusion Matrix) ve doğruluk (Accuracy) metrikleri kullanıldı.
+### 1. **Veri Ön İşleme (Data Preprocessing)**  
+- CSV dosyasındaki veriler bir DataFrame olarak içe aktarıldı ve incelendi.  
+- Kategorik veriler **One-Hot Encoding** ile dönüştürüldü.  
+- Zaman bilgileri dakikaya çevrildi.  
+- Yazı ile yazılan bazı sayı değerleri (örneğin: bin gibi) düzeltildi.  
+- Eksik değerler işlendi.  
+
+### 2. **Veri Görselleştirme**  
+- Sayısal sütunlar için **histogramlar** çizildi.  
+- Kategorik sütunlar için **pasta grafikleri** oluşturuldu.  
+- Korelasyon matrisleri kullanılarak veriler arasındaki ilişkiler incelendi.  
+
+### 3. **Aykırı Değerlerin Düzeltilmesi**  
+- **IQR (Interquartile Range)** yöntemiyle aykırı değerler tespit edilip, bu değerler ortalama ile dolduruldu.  
+
+### 4. **Modelleme**  
+- **Random Forest**, **Gradient Boosting** ve **XGBoost** gibi regresyon modelleri kullanılarak tahminler yapıldı.  
+- Hedef değişken **Label Encoding** kullanılarak kategorik hale dönüştürüldü.  
+- Sınıflandırma için **SVM (Support Vector Machine)** ve **KNN (K-Nearest Neighbors)** algoritmaları uygulandı.  
+- **GridSearchCV** kullanılarak SVM ve KNN modellerinin hiperparametreleri optimize edildi.  
+    - **GridSearchCV** (Grid Search Cross Validation), belirtilen parametrelerin farklı kombinasyonlarını dener ve her bir kombinasyon için çapraz doğrulama yaparak en iyi performansı veren parametre setini seçer.  
+
+### 5. **Sonuçlar**  
+- Eğitim ve test setlerine ayırdıktan sonra modeller eğitildi.  
+- Regresyon modelleri, **R² skoru** ve **Mean Squared Error (MSE)** gibi performans metrikleri hesaplanarak değerlendirildi.  
+- Sınıflandırma modellerini değerlendirmek için ise **sınıflandırma raporu (Classification Report)**,**karmaşıklık matrisi(Confusion Matrix)** ve **doğruluk (Accuracy)** metrikleri kullanıldı.
 ## Kullanılan Kütüphaneler
 Bu kütüphaneler, proje kapsamında veri analizi, görselleştirme, model oluşturma ve değerlendirme süreçlerini desteklemek için tercih edilmiştir.
  
