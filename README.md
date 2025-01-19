@@ -88,7 +88,7 @@ Proje, **Jupyter Notebook** programı kullanılarak gerçekleştirilmiştir.
 ## 📁 Klasör ve Dosya Açıklamaları
 
 ### 1. `images` Klasörü
-Bu klasör, proje kapsamında kullanılan görselleri içermektedir.
+Bu klasör, proje adımlarının uygulanması esnasında elde edilen bazı sonuçlara ait görselleri içermektedir.
 
 ### 2. `data_preprocessing_train_model.py` Dosyası
 Bu Python dosyası, veri ön işleme ve model eğitimi işlemlerini gerçekleştirmek için oluşturulmuştur. 
