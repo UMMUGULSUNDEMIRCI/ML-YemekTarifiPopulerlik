@@ -13,10 +13,6 @@ Proje, **Jupyter Notebook** programı kullanılarak gerçekleştirilmiştir.
 
 Bu projede aşağıdaki adımlar gerçekleştirilmiştir:
 
-İşte belirtilen başlıkları ve açıklamaları düzenleyerek daha net ve anlaşılır bir formatta "Read Me" dosyanıza ekleyebileceğiniz şekilde listeledim:
-
----
-
 ### 1. **Veri Ön İşleme (Data Preprocessing)**  
 - CSV dosyasındaki veriler bir DataFrame olarak içe aktarıldı ve incelendi.  
 - Kategorik veriler **One-Hot Encoding** ile dönüştürüldü.  
