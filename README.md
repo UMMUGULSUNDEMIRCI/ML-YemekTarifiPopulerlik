@@ -89,7 +89,7 @@ KNN, basit ve sezgisel bir sınıflandırma algoritmasıdır. Yeni bir örnek, e
 ## Proje Görselleri
 
 ### 1. İlk Resim
-![Açıklama](images/image1.png)
+![Veri Setinin Orijinali](images/orjinalveriseti.PNG)
 
 ### 2. İkinci Resim
 ![Açıklama](images/image2.jpg)
