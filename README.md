@@ -78,10 +78,10 @@ tahmin etmek için kullanılmıştır.
 XGBoost, optimizasyon ve hız açısından güçlü bir modeldir ve büyük veri setlerinde genellikle yüksek performans sergiler.
 ## Sınıflandırma Modelleri
 
-###Support Vector Machine (SVM)  
+### Support Vector Machine (SVM)  
 SVM, sınıflandırma ve regresyon analizlerinde kullanılan güçlü bir makine öğrenmesi modelidir. Verisetindeki örnekleri doğru sınıflara ayırmak için en iyi hiper düzlemi (decision boundary) bulmaya çalışır. SVM, özellikle yüksek boyutlu verilerde ve karmaşık sınıflandırma problemlerinde etkili sonuçlar verir.
 
-###K-Nearest Neighbors (KNN): 
+### K-Nearest Neighbors (KNN): 
 KNN, basit ve sezgisel bir sınıflandırma algoritmasıdır. Yeni bir örnek, eğitim verisindeki en yakın K komşusuna göre sınıflandırılır. KNN, etiketli verilerin yoğun olduğu ve önceden model eğitimi gerektirmeyen durumlarda yaygın olarak kullanılır.
 
 
